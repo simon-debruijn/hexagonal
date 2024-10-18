@@ -10,8 +10,8 @@ describe(Book.name, () => {
   });
 
   it("should throw on string as price", () => {
-    // @ts-expect-error
     const act = () =>
+      // @ts-expect-error
       new Book("1984", "A dystopian novel by George Orwell", "1.99");
 
     expect(act).toThrow(new Error("price 1.99 is not a valid format"));
