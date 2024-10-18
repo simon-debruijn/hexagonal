@@ -1,0 +1,20 @@
+{
+  "name": "hexagonal",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "packages/web/src/server.js",
+  "scripts": {
+    "test": "vitest",
+    "types": "tsc -noEmit",
+    "format": "prettier --write packages/*/src/**/*.{js,json}"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.7.6",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3"
+  }
+}

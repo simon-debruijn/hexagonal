@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Harry Potter",
+    "price": "$2.99",
+    "meta": {
+      "brief": "About a boy wizard named Harry Potter"
+    }
+  },
+  {
+    "name": "The Hobbit",
+    "price": "$3.99",
+    "meta": {
+      "brief": "A fantasy novel about Bilbo Baggins' adventure"
+    }
+  },
+  {
+    "name": "1984",
+    "price": "$1.99",
+    "meta": {
+      "brief": "A dystopian novel by George Orwell"
+    }
+  },
+  {
+    "name": "To Kill a Mockingbird",
+    "price": "$2.49",
+    "meta": {
+      "brief": "A novel about racism and justice in the American South"
+    }
+  },
+  {
+    "name": "Pride and Prejudice",
+    "price": "$2.75",
+    "meta": {
+      "brief": "A classic novel about love and society in 19th-century England"
+    }
+  }
+]

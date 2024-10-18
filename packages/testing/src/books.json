@@ -1,0 +1,16 @@
+[
+  {
+    "name": "The Hobbit",
+    "price": "$3.99",
+    "meta": {
+      "brief": "A fantasy novel about Bilbo Baggins' adventure"
+    }
+  },
+  {
+    "name": "1984",
+    "price": "$1.99",
+    "meta": {
+      "brief": "A dystopian novel by George Orwell"
+    }
+  }
+]

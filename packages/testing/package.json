@@ -1,0 +1,19 @@
+{
+  "name": "@app/testing",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "exports": {
+    "./*": "./src/*.js"
+  },
+  "scripts": {
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@app/domain": "^1.0.0",
+    "@app/infra": "^1.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.3"
+  }
+}

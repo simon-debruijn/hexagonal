@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",
+    "allowJs": true,
+    "checkJs": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true,
+    "paths": {
+      "@app/*/": ["./packages/*/"]
+    }
+  },
+  "include": ["./packages/*/src/*"]
+}

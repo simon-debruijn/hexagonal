@@ -1,0 +1,10 @@
+{
+  "name": "@app/domain",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "exports": {
+    "./*": "./src/*.js"
+  },
+  "types": "./src/*.js"
+}
