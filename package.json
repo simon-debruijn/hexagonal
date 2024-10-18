@@ -7,7 +7,7 @@
   "scripts": {
     "test": "vitest",
     "types": "tsc -noEmit",
-    "format": "prettier --write packages/*/src/**/*.{js,json}"
+    "format": "prettier --write packages/*/src/**.{js,json}"
   },
   "workspaces": [
     "packages/*"
